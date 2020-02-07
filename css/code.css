@@ -1,0 +1,619 @@
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+
+html {
+    background-color: #fff;
+    font-family: 'Fredoka+One', 'ubuntu', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+header {
+    height: 100vh;
+    background-image:linear-gradient(rgba(19, 97, 214, 0.7), rgba(14, 117, 177, 0.7)), url(../img/001.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+
+.header__text {
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 0.5;
+}
+
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.initial {
+    margin-left: 2.8rem;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+
+
+.header__text-primary {
+        display: block;
+        font-size: 5rem;
+        font-weight: 900;
+}
+
+
+.header__text-secondary {
+        display: block;
+        font-size: 4.8rem;
+        font-weight: 900;
+        margin-bottom: 60px;
+}
+
+.header__text-secondary::after {
+    display: block;
+    height: 2px;
+    background-color: azure;
+    content: " ";
+    width: 100px;
+    margin: 65px auto 1px auto;
+}
+
+
+p {
+    color: #fff;
+    position: absolute;
+    top: 28rem;
+    left: 12rem;
+}
+
+
+.paragraph2 {
+    margin-left: 3.5rem;
+}
+
+
+.header__text-tertiary {
+    color: rgb(24, 23, 23);
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 5rem;
+    word-spacing: 1px;
+    text-shadow: 2px 7px rgb(187, 186, 186);
+}
+
+
+.main-nav {
+    float: right;
+    text-transform: uppercase;
+    margin-top: 55px;  
+    background-attachment: fixed;
+    letter-spacing: .5px;
+}
+
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 15px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    margin-right: 15px;
+}
+
+
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+   color: #e0c999;
+}
+
+
+.section-paragraph {
+    display: inline-block;
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+
+.paragraph3 {
+    text-align: center;
+    color: rgb(59, 56, 56);
+    font-size: .8rem;
+    margin-left: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+
+.paragraph4 {
+    font-size: .8rem;
+    margin-left: 5.5rem;
+    color:  rgb(59, 56, 56);
+    line-height: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.tag {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: 30px;
+    margin-left: 40%;
+}
+
+
+.btn:link,
+.btn:visited {
+    padding: 9px 8px;
+    font-weight: bold;
+    font-size: 14.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 7px;
+    transition: all .2s;
+}
+
+
+.btn-full:link,
+.btn-full:visited {
+    border: 2.5px solid #555;
+    color: rgb(53, 52, 52); 
+}
+
+
+.btn:hover,
+.btn:active {
+    background-color: rgba(238, 232, 232, 0.836);
+}
+
+
+.small {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+
+.headings {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.904);
+    letter-spacing: -2.5px;
+}
+
+
+.paragraph5 {
+    padding: 32px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal; 
+}
+
+
+.section-feature-box {
+    box-sizing: border-box;
+    padding: 27px;
+    margin: -54px auto;
+    width: 100%;
+    height: 50rem;
+    border: 1px solid transparent;
+	border-radius: 12px;
+    column-rule: 2px solid #555;
+}
+
+
+.image1 {
+    height: 47vh;
+    background: url(../img/12.jpg) no-repeat;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    width: 47vh;
+    margin: 3px 2px;
+}
+
+.image-set {
+    height: 48vh;
+    border: 2.5px solid red;
+    border-radius: 50%;
+    width: 84%;
+    margin-top: 75px;
+    margin-left: 10px;
+}
+
+.section-person {
+    height: 80vh;
+    background-color: rgba(233, 230, 227, 0.774);
+    padding: 10px;
+    width: 100%;
+}
+
+.headings1 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(24, 23, 23);
+    margin-top: 5.5rem;
+    margin-left: 20px;
+    margin-bottom: 23px;
+    line-height: .5;
+}
+
+.headings2 {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 8px 0px 6px 20px;
+    color: rgb(49, 47, 47);
+}
+
+blockquote {
+    font-weight: 100;
+    font-size: 19px;
+    color: rgb(41, 40, 40);
+    margin: 59px 44px 54px 133px;
+}
+
+cite {
+    color: rgb(221, 25, 25);
+    margin-left: 31rem;
+    border-bottom: 1px solid #000;
+    font-family: Arial;    
+}
+
+cite :hover {
+    border-bottom: transparent;
+}
+
+.quotes {
+    height: 5vh;
+    width: 9vh;
+    display: table;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.image2 {
+    height: 50vh;
+    background-image: url(../img/try-before-you-buy.svg);
+    background-repeat: no-repeat;
+    width: 95vh;
+    margin: 70px 50px;
+}
+
+.section-buy {
+    height: 80vh;
+    background-color: #ffd480;
+    padding: 10px;
+    width: 100%;
+}
+
+.heading-fourth {
+    color: #000;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 6px rgba(155, 143, 143, 0.753);
+    margin-top: 100px;
+    margin-left: 50px;
+    letter-spacing: 1px; 
+}
+
+
+.risk-free {
+    color: rgb(43, 37, 37);
+    font-size: 1rem;
+    font-weight: 300;
+    margin-left: 55px;
+    word-spacing: 3px;
+}
+
+.paragraph7 {
+    font-size: 16px;
+    font-weight: 350;
+    display: block;
+    margin-left: 50px;
+    color: rgb(58, 56, 56);
+    line-height: 1.7;
+    margin-top: 80px;
+}
+
+.paragraph8 {
+    display: block;
+    color: rgb(22, 22, 22);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.icons {
+    width: 12%;
+    height: 12%;
+    display: block;
+    margin: 1px 72px -59px -7px;
+}
+
+.headings9 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;
+    padding-left: 50px;
+}
+
+.paragraph9 {
+    font-size: 15px;
+    font-weight: 250;
+    display: inline-block;
+    color: rgb(53, 51, 51);
+    padding: 5px 13px 0px 0px;
+    margin: 22px 80px 0px 50px;
+}
+
+.feature-third {
+    padding: 1px 1px 1px 32px;
+}
+
+.feature-forth {
+    padding: 28px 50px 10px 38px;
+    margin: 15px 1px 1px 1px;
+}
+
+.section-promice {
+    margin-bottom: 65vh;
+}
+
+
+.coding-company {
+    height: 95vh;
+    display: block;
+    background-color: rgb(41, 145, 197);
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.office {
+    height: 92vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/office.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.headings10 {
+    color: rgb(248, 237, 237);
+    text-align: left;
+    margin-left: 2rem;
+    font-size: 2rem;
+    padding-top: 2rem;
+    word-spacing: 1px;
+    text-shadow: 4px 7.5px rgba(103, 103, 104, 0.4); 
+}
+
+.paragraph10 {
+    color: rgb(240, 225, 166);
+    font-size: 15.5px;
+    font-weight: 100;
+    margin: 70px 77px 1px 40px;
+}
+
+.part1 {
+    padding: 40px 30px 40px 1px;
+}
+
+.part2 {
+    line-height: 4.5;
+    letter-spacing: .1px;
+    display: block;
+    width: 100%;    
+}
+
+.paragraph11 {
+    color: rgb(247, 242, 242);
+    padding: 1px 1px 1px 1px;
+    position: relative;
+}
+
+.num1 {
+    font-size: 2.5rem;
+    position: absolute;
+    left: 30px;
+    letter-spacing: -5.6px;
+}
+
+.num2 {
+    font-size: 2.5rem;
+    position: absolute;
+    left: 13rem;
+    letter-spacing: -5.6px;
+}
+
+.num3 {
+    font-size: 2.5rem;
+    position: absolute;
+    left: 15px;
+    top: 2rem;
+    letter-spacing: -5.6px;
+}
+
+
+.style-1 {
+    display: inline-block;
+    margin: -2rem 33rem 0rem 3rem;
+    font-size: 16.5px;
+    position: absolute;
+    top: 2.4rem;
+    right: -10rem;
+    left: 1.5rem;
+}
+
+.style-2 {
+    display: inline-block;
+    margin: -2rem 33rem 0rem 3rem;
+    font-size: 16.5px;
+    position: absolute;
+    top: 2.4rem;
+    right: 0rem;
+    left: 16.5rem;
+}
+
+.style-3 {
+    display: inline-block;
+    margin: -2rem 33rem 0rem 3rem;
+    font-size: 16.5px;
+    position: absolute;
+    top: 4.5rem;
+    right: -10rem;
+    left: 1.5rem;
+    letter-spacing: .1px;
+}
+
+
+.section-match {
+    margin-top: -45px;
+    height: 60vh;
+    background-color: #ffd480;
+    position: relative; 
+}
+
+.heading11 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    padding-top: 5rem;
+    letter-spacing: -3px;
+    word-spacing: 5px;
+    color: rgba(19, 18, 18, 0.842);
+}
+
+
+.match {
+    font-size: 2.5rem;
+    font-weight: 480;
+    color: rgba(7, 6, 6, 0.87);
+}
+
+
+.project {
+    font-weight: bold;
+    font-size: 14.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(53, 52, 52);
+    border: 2.5px solid #555;
+    padding: 12px 15px;
+    border-radius: 7px;
+    margin-left: 26.5rem;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+
+.project-ghost {
+    color: transparent;
+    border: 2.5px solid transparent;
+    background-color: rgba(182, 180, 180, 0.418);
+    padding: 12px 95px;
+    border-radius: 7px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: -9.5rem;
+}
+
+.section-last {
+    margin-left: 3rem;
+}
+
+.set {
+    display: flex;
+}
+
+.heading12 {
+    font-size: 18px;
+    font-weight: 430;
+    padding: 40px 1px 2px 40px;
+    color: rgb(61, 61, 61);
+}
+
+.link1 {
+    list-style: none;
+    padding: 10px 20px;
+    margin-left: 1rem;
+}
+
+.link2{
+    list-style: none;
+}
+
+.content {
+    font-size: 14px;
+    font-weight: 300;
+    color: #555;
+    line-height: 2.7;
+}
+
+.content:hover {
+    color: #000;
+    font-weight: 400;
+}
+
+.burger {
+    width: 25%;
+    height: 15vh;
+    display: block;
+    margin: 36px 0px 0px 90px;
+}
+
+
+.heading13 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 360;
+    margin: -4.3rem 0px 0px 7.8rem;
+    padding: 1rem 1rem 1rem 1rem;
+    display: block;
+    top: 2px;
+}
+
+
+.span1 {
+    font-size: 20px;
+    font-weight: 405;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    margin: 1px 1px 1px -5px;
+    color: rgba(85, 85, 85, 0.815);
+}
+
+
+
+.social-link {
+    display: inline-block;
+    height: 3vh;
+    margin: 9rem -30px 12px 50px;
+    padding: 1px 1px 1px 1px;
+    opacity: .4;
+}
